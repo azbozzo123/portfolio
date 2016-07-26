@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+   <title>Bozzo-Tech</title>
+   <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="/portfolio.css" type="text/css">
+</head>
+
+<body>
+
+   <!-- the navbar and "top" section/intro to website-->
+   <div>
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="myNav">
+         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <!-- This is to create dropdown when on mobile/small screens -->
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+
+               <a class="navbar-brand" href="#toTop" id="name">Bozzo-Tech</a>
+            </div>
+
+            <!-- These are the links top-right that will be in dropdown with small screens -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#toTop">Top</a></li>
+                  <li><a href="#aboutMe">About Me</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </div>
+   <div id="topSpace">
+       <a name="toTop"></a>
+      <!-- Used just for spacing the top with the navbar -->
+   </div>
+   
+   <div class="top">
+      <!-- Section for intro/welcome area when first on page -->
+      <div class="intro text-center">
+         <h1>Anthony Bozzo</h1>
+         <h3>JavaScript Web Developer</h3>
+         <h4>Minneapolis, MN</h4>
+         <br />
+         <hr />
+         <a href="https://www.linkedin.com/in/anthony-bozzo-1888b21b" class="btn btn-default hvr-grow-rotate"><i class="fa fa-linkedin fa-2x"></i>&nbsp;&nbsp; LinkedIn</a>
+         <a href="https://www.freecodecamp.com/azbozzo123" class="btn btn-default hvr-grow-rotate"><i class="fa fa-fire fa-2x"></i>&nbsp;&nbsp; FreeCodeCamp</a>
+         <a href="https://github.com/azbozzo123" class="btn btn-default hvr-grow-rotate"><i class="fa fa-github fa-2x"></i>&nbsp;&nbsp; GitHub</a>
+      </div>
+   </div>
+
+
+   <!-- About Me section -->
+   <div id="aboutMe">
+      <div class="container">
+         <div class="row">
+
+            <div class="col-md-5">
+               <img src="https://media.licdn.com/media/p/7/005/02e/11c/327e1f6.jpg" alt="" id="selfie"/>
+            </div>
+            
+            <div class="col-md-7 meInfo">
+               <h1>About Me</h1>
+               <h3>
+                  I am a <strong>self-taught</strong> Junior JavaScript developer. I am currently using education tools such as <a href="https://www.freecodecamp.com" target="_blank"><img src="https://s3.amazonaws.com/freecodecamp/logo4.0LG.png" alt="" class="schoolImg" /></a> , <a href="https://www.udemy.com" target="_blank"><img src="https://d3q6qq2zt8nhwv.cloudfront.net/platform/ad60099634084625bb7f3b0331222195.png" alt="" class="schoolImg" /></a> and <a href="https://www.codecademy.com" target="_blank"><img src="http://s3.amazonaws.com/codecademy-blog/assets/logo_blue_dark.png" alt="" class="schoolImg codeImg" /></a> . Looking to move into a development field with my customer focus driven past experiences. 
+               </h3>
+               <h3>Experience with:</h3>
+               <div class="toolsDiv">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png" alt="" class="tools hvr-float-shadow"/>
+
+                  <img src="http://opencode.us/wp-content/uploads/2013/10/css3_logo.png" alt="" class="tools hvr-float-shadow"/>
+
+                  <img src="http://www.ocpsoft.org/wp-content/uploads/2013/01/javascript_logo_unofficial-300x300.png" alt="" class="tools hvr-float-shadow"/>
+
+                  <img src="http://welego.org/public/files/2015/06/jquery.png" alt="" class="tools hvr-float-shadow"/>
+                  <br />
+                  <img src="https://git-scm.com/images/logo@2x.png" alt="" class="tools hvr-float-shadow" id="git"/>
+
+                  <img src="http://www.aha.io/assets/integration_logos/github-bb449e0ffbacbcb7f9c703db85b1cf0b.png" alt="" class="tools hvr-float-shadow" id="gitHub"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- Portfolio section -->
+   <div id="portfolio">
+      <div class="fadeBack">
+         <div class="portIntro">
+            <h1>Portfolio</h1>
+            <div class="row text-center">
+               <div class="col-sm-6">
+                  <a href="http://codepen.io/azbozzo123/full/rLJRaR/" class="thumbnail hvr-grow"><img src="http://i864.photobucket.com/albums/ab210/azbozzo123/ToDo%20List_zpsf1utkair.png" alt="" /></a>
+               </div>
+               
+               <div class="col-sm-6">
+                  <a href="http://codepen.io/azbozzo123/full/RRxYLX/" class="thumbnail hvr-grow"><img src="http://i864.photobucket.com/albums/ab210/azbozzo123/colorgame_zps1duyye64.png" alt="" /></a>
+               </div>
+            </div>
+            <div class="row text-center">
+               <div class="col-sm-6">
+                  <a href="http://codepen.io/azbozzo123/full/GpMERX/" class="thumbnail hvr-grow"><img src="http://i864.photobucket.com/albums/ab210/azbozzo123/calc_zpshpztpaj0.png" alt="" /></a>
+               </div>
+               
+               <div class="col-sm-6">
+                  <a href="http://codepen.io/azbozzo123/pen/mJvPJG" class="thumbnail hvr-grow"><img src="http://i864.photobucket.com/albums/ab210/azbozzo123/vince_zpshmaaygce.png" alt="" /></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- Contact section -->
+   <div id="contact">
+      <h2>To connect with Anthony Bozzo:</h2>
+      <h4>
+         <a href="mailto:azbozzo@hotmail.com">AZBOZZO@HOTMAIL.COM</a>
+      </h4>
+      
+      <a href="https://www.linkedin.com/in/anthony-bozzo-1888b21b" class="btn btn-default hvr-grow-rotate"><i class="fa fa-linkedin fa-2x"></i>&nbsp;&nbsp; LinkedIn</a>
+         <a href="https://www.freecodecamp.com/azbozzo123" class="btn btn-default hvr-grow-rotate"><i class="fa fa-fire fa-2x"></i>&nbsp;&nbsp; FreeCodeCamp</a>
+         <a href="https://github.com/azbozzo123" class="btn btn-default hvr-grow-rotate"><i class="fa fa-github fa-2x"></i>&nbsp;&nbsp; GitHub</a>
+   </div>
+   <footer>
+      <h4>Created by Anthony Bozzo (Bozzo-Tech)</h4>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#aboutMe">About Me</a>
+      <a href="#toTop">Home</a>
+   </footer>
+
+
+   <!-- JS to have navbar reactr with small devices -->
+   <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
