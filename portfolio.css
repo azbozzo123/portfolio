@@ -23,7 +23,7 @@ body {
 
 .top {
    height: 100%;
-   background: url('https://www.jisc.ac.uk/sites/default/files/independent-developer.jpg');
+   background-color: #ddfffd;
    background-repeat: no-repeat;
    background-size: cover;
 }
@@ -189,7 +189,7 @@ body {
 
 #portfolio {
    border-top: 3px solid grey;
-   background-image: url("https://pixabay.com/static/uploads/photo/2015/10/27/14/40/programming-1009134_960_720.jpg");
+   background-color: #ddfffd;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
@@ -207,7 +207,7 @@ body {
 
 #portfolio h1 {
    font-size: 6em;
-   color: white;
+   color: black;
    text-align: center;
    margin-bottom: 50px;
 }
