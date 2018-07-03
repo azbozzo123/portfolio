@@ -190,15 +190,6 @@ body {
 #portfolio {
    border-top: 3px solid grey;
    background-color: #ddfffd;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   
-}
-
-.fadeBack{
-   background-color: rgba(0,0,0,.7);
-   background-size: cover;
 }
 
 .portIntro {
